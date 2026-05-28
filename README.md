@@ -1,1 +1,0 @@
-# naco-epidemic-networks
