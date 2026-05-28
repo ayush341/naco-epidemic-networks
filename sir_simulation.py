@@ -522,17 +522,3 @@ print("  2. Hub seeding causes 4x larger outbreaks than random seeding")
 print("  3. All networks converge at high R0")
 print("  4. Clustering is causally responsible for small-world suppression")
 
-# ─────────────────────────────────────────────────────────────
-# DOWNLOAD FILES (only works in Google Colab)
-# ─────────────────────────────────────────────────────────────
-try:
-    from google.colab import files
-    print("\nDownloading all figures...")
-    files.download('exp1_beta_sweep.png')
-    files.download('exp1_curves.png')
-    files.download('exp2_seed_nodes.png')
-    files.download('exp3_rewiring.png')
-    files.download('exp4_hub_vs_random.png')
-    print("All files downloaded!")
-except ImportError:
-    print("\nNot running in Colab — files saved in current directory.")
